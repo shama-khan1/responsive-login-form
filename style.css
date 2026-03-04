@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #574598;
+}
+#heading{
+
+    margin-bottom: 10px;
+}
+.box{
+    text-align: center;
+    width: 90%;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #24b1a5;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+#username{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#password{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #574598;
+    color: white;
+    cursor: pointer;
+}
+@media (max-width:400px){
+    .box{
+        width: 90%;
+        padding: 15px;
+
+    }
+    #heading{
+        font-size: 22px;
+    }
+    .btn{
+        padding: 8px;
+    }
+
+}
